@@ -22,7 +22,7 @@ export const InstagramFeed = () => {
           className="group inline-flex items-center gap-2 px-6 py-3 bg-brand-white border border-brand-gold/50 text-brand-blue rounded-full font-medium hover:bg-brand-blue hover:text-white transition-all duration-300 shadow-sm hover:shadow-md"
         >
           <Instagram className="w-5 h-5 text-brand-gold group-hover:text-white transition-colors" />
-          <span>@my_kind_of_travel_</span>
+          <span>@island__safari</span>
           <ExternalLink className="w-4 h-4 opacity-0 -ml-2 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300" />
         </a>
       </div>
