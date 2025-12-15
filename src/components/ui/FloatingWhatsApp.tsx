@@ -4,8 +4,8 @@ import WhatsAppIcon from '../common/WhatsAppIcon';
 
 export const FloatingWhatsApp = () => {
   // Updated WhatsApp number
-  const phoneNumber = "918769688369"; 
-  const message = encodeURIComponent("Hello! I'm interested in planning a trip with My Kind of Travel.");
+  const phoneNumber = "918891601055";
+  const message = encodeURIComponent("Hello! I'm interested in planning a trip with Island Safari.");
 
   return (
     <motion.a
@@ -21,7 +21,7 @@ export const FloatingWhatsApp = () => {
       aria-label="Chat on WhatsApp"
     >
       <WhatsAppIcon className="w-8 h-8" />
-      
+
       {/* Pulse effect for attention */}
       <span className="absolute inset-0 rounded-full bg-[#25D366] opacity-75 animate-ping -z-10"></span>
     </motion.a>

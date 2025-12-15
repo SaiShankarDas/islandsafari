@@ -8,16 +8,16 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="font-serif text-2xl font-bold text-white">My Kind of Travel</h3>
+            <h3 className="font-serif text-2xl font-bold text-white">Island Safari</h3>
             {/* Replaced text-brand-white/70 with text-brand-gold */}
             <p className="text-brand-gold text-sm leading-relaxed">
               Curating authentic travel experiences and inspiring your next great adventure. Travel deeper, live fuller.
             </p>
             <div className="flex gap-4">
-              <a 
-                href="https://www.instagram.com/my_kind_of_travel_/?hl=en" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.instagram.com/island__safari/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-brand-gold hover:text-white transition-colors"
               >
                 <Instagram className="w-5 h-5" />
@@ -35,7 +35,7 @@ export const Footer = () => {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-6 text-white">Explore</h4>
             <ul className="space-y-3 text-sm text-brand-gold">
-              <li><a href="#" className="hover:text-white transition-colors">Destinations</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Packages</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Travel Guides</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Photography</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Lifestyle</a></li>
@@ -59,18 +59,18 @@ export const Footer = () => {
             <ul className="space-y-4 text-sm text-brand-gold">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-gold shrink-0" />
-                <span>123 Wanderlust Ave,<br />New York, NY 10012</span>
+                <span>Island Safari Airport road,<br />Agatti Island, Lakshadweep 682553</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-brand-gold shrink-0" />
-                <a href="mailto:hello@mykindoftravel.com" className="hover:text-white transition-colors">hello@mykindoftravel.com</a>
+                <a href="mailto:islandsafari@gmail.com" className="hover:text-white transition-colors">islandsafari@gmail.com</a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-brand-gold/20 pt-8 text-center text-sm text-brand-gold/60">
-          <p>&copy; {new Date().getFullYear()} My Kind of Travel. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Island Safari. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -15,8 +15,8 @@ export const InstagramFeed = () => {
             Snapshots from our latest adventures around the globe.
           </p>
         </div>
-        <a 
-          href="https://www.instagram.com/my_kind_of_travel_/?hl=en" 
+        <a
+          href="https://www.instagram.com/island__safari/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-2 px-6 py-3 bg-brand-white border border-brand-gold/50 text-brand-blue rounded-full font-medium hover:bg-brand-blue hover:text-white transition-all duration-300 shadow-sm hover:shadow-md"
@@ -37,19 +37,19 @@ export const InstagramFeed = () => {
           {instagramPosts.map((post) => (
             <a
               key={post.id}
-              href="https://www.instagram.com/my_kind_of_travel_/?hl=en"
+              href="https://www.instagram.com/island__safari/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
               className="relative w-[280px] h-[350px] md:w-[320px] md:h-[400px] flex-shrink-0 rounded-xl overflow-hidden group cursor-pointer shadow-md mx-2 block"
             >
-              <img 
-                src={post.image} 
-                alt={post.alt} 
+              <img
+                src={post.image}
+                alt={post.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-brand-blue/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[2px]">
                 <div className="bg-white/20 p-4 rounded-full backdrop-blur-md border border-white/30 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                    <Instagram className="w-8 h-8 text-brand-gold" />
+                  <Instagram className="w-8 h-8 text-brand-gold" />
                 </div>
               </div>
             </a>

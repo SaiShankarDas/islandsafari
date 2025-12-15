@@ -24,8 +24,8 @@ export const Header = () => {
   ];
 
   const menuVariants = {
-    closed: { 
-      opacity: 0, 
+    closed: {
+      opacity: 0,
       height: 0,
       transition: {
         duration: 0.3,
@@ -33,8 +33,8 @@ export const Header = () => {
         when: "afterChildren"
       }
     },
-    open: { 
-      opacity: 1, 
+    open: {
+      opacity: 1,
       height: 'auto',
       transition: {
         duration: 0.3,
@@ -54,8 +54,8 @@ export const Header = () => {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled 
-          ? "bg-brand-white/95 backdrop-blur-md shadow-sm py-3" 
+        isScrolled
+          ? "bg-brand-white/95 backdrop-blur-md shadow-sm py-3"
           : "bg-transparent py-6"
       )}
     >
@@ -70,7 +70,7 @@ export const Header = () => {
             "font-serif text-xl font-bold tracking-wide transition-colors",
             isScrolled ? "text-brand-blue" : "text-white"
           )}>
-            My Kind of Travel
+            Island Safari
           </span>
         </a>
 
